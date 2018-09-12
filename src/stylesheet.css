@@ -7,3 +7,16 @@ body {
     width: 100%;
     height: 100%;
 }
+
+.widget-head {
+    position: fixed;
+    top: 0;
+    margin: 10px 0 0 10px;
+    z-index: 999;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.widget-head > .widget-head-query {}
+
+.widget-head > .widget-head-btn {}
